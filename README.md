@@ -10,7 +10,7 @@ This was a simple project with just the FILMChain.sol contract under `contracts`
 
 ### Hardhat config
 
-The hardhat.config.json was configured setting BSC as the network and an API key for BSCScan. Also the Solidity version configured was 0.8.9, the same as the contract's, and the optimizer settings, enabled with 200 runs, as specified. However, after attempting to run the verification for the first time, Hardhat threw an error message saying version 0.8.18 was used to compile the contract at the specified address.
+The hardhat.config.js was configured setting BSC as the network and an API key for BSCScan. Also the Solidity version configured was 0.8.9, the same as the contract's, and the optimizer settings, enabled with 200 runs, as specified. However, after attempting to run the verification for the first time, Hardhat threw an error message saying version 0.8.18 was used to compile the contract at the specified address.
 
 ```JavaScript
 require("@nomicfoundation/hardhat-toolbox");
