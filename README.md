@@ -1,6 +1,6 @@
 # FilmChain Smart Contract Verification
 
-This repo showcases the work done to verify the [FILMChain smart contract](https://bscscan.com/address/0x17e842bec4d8c6fa612a21c087599698de5afd0a#code). This was a challenge given to me by [Sardar D. Parvar](https://www.linkedin.com/in/sardar-d-parvar/) from [FilmChain](https://filmchain.xyz/). Sardar sent me the .sol file, the URL to BSC Scan and told me it had been compiled using 200 optimization runs.
+This repo showcases the work done to verify the [FILMChain smart contract](https://bscscan.com/address/0x17e842bec4d8c6fa612a21c087599698de5afd0a#code). This was a challenge given to me by the guys at [FilmChain](https://filmchain.xyz/). They sent me the .sol file, the URL to BSC Scan and told me it had been compiled using 200 optimization runs.
 
 The first thing that came to mind to verify the contract was to try to do it on BSC Scan directly, however this of course couldn't be done, since the contract has several imports. Therefore, the best approach seemed to create a Hardhat project and do it from there.
 
